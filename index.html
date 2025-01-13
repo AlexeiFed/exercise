@@ -14,17 +14,15 @@
             height: 100vh;
             background-color: #f0f0f0;
         }
-        video {
+        iframe {
             width: 100%;
             max-width: 600px;
-            height: auto;
+            height: 340px; /* Примерная высота видео */
+            border: none;
         }
     </style>
 </head>
 <body>
-    <video controls>
-        <source src="https://drive.google.com/uc?export=download&id=1Z5sKNVHB2VJ6vvevWdwLN26Kvh8cciUQ" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1Z5sKNVHB2VJ6vvevWdwLN26Kvh8cciUQ/preview" allow="autoplay"></iframe>
 </body>
 </html>
